@@ -16,27 +16,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class SwaggerConfig {
 
-    /*@Bean
-    public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2)
-                .select()
-                .apis(RequestHandlerSelectors
-                        .basePackage("com.hcl.library.controller"))
-                .paths(PathSelectors.regex("/library.*"))
-                .build()
-                .apiInfo(apiInfo());
-    }
-
-
-    	
-
-    	private ApiInfo apiInfo() {
-    		return new ApiInfoBuilder().title("Library Management API")
-    				.description("Library Management API reference for developers")
-    				.termsOfServiceUrl("http://test.com")
-    				.contact("biswarm@gmail.com").license("Library Management License")
-    				.licenseUrl("biswarm@gmail.com").version("1.0").build();
-    	}*/
 	@Bean
     public Docket customDocket(){
         return new Docket(DocumentationType.SWAGGER_2)
