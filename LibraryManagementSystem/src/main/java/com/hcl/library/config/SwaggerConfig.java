@@ -1,4 +1,4 @@
-package com.hcl.library.config;
+/*package com.hcl.library.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -39,3 +39,4 @@ public class SwaggerConfig {
     }
 
 }
+*/
